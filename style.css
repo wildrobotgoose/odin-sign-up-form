@@ -9,12 +9,13 @@ body {
     align-items: stretch;
 }
 
-body div {
+body > div {
     border: solid red 2px;
 }
 
 div.sidebar {
     flex-grow: 1;
+    min-width: 300px;
 }
 
 div.main {
@@ -23,7 +24,7 @@ div.main {
     flex-direction: column;
 }
 
-div.main div {
+div.main > div {
     border: solid yellow 2px;
     flex-grow: 1;
 }
@@ -38,4 +39,16 @@ div.main-middle{
 
 div.main-bottom {
     background-color: #F0F0F0;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+form > div {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
 }
