@@ -27,3 +27,15 @@ div.main div {
     border: solid yellow 2px;
     flex-grow: 1;
 }
+
+div.main-top {
+    background-color: #F0F0F0;
+}
+
+div.main-middle{
+    background-color: white;
+}
+
+div.main-bottom {
+    background-color: #F0F0F0;
+}
