@@ -42,13 +42,12 @@ div.main-bottom {
 }
 
 form {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template: 100px 100px 100px / 200px 200px;
     gap: 50px;
 }
 
 form > div {
-    width: 200px;
     display: flex;
     flex-direction: column;
 }
